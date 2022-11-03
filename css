@@ -1,0 +1,75 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+  
+}
+#image {
+  max-width: 100%;
+  max-height: auto;
+  display: block;
+  margin: auto;
+}
+
+img{
+  display: block;
+}
+
+h1 {
+  background-color: hsl(18, 50%, 90%);
+  
+  border: 1px solid black;
+  color: #000000;
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+
+
+
+body{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://jf5366.github.io/tribute/images/20220531_092957.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ background-position: center center;
+ background-size: cover;
+
+}
+
+
+.responsive-img {
+ max-width: 100%;
+  height: auto;
+
+}
+
+
+#tribute-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px dotted black;
+  border-radius: 25px;
+  margin: 10px 35%;
+  padding: 10px;
+  content: justify;
+}
+#likesdislikes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin: 10px 25%;
+}
+
+
+
+  footer {
+    display: flex;
+flex-direction: column;
+  }
